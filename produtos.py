@@ -1,0 +1,5 @@
+nome = input ("Nome do Cliente: ")
+preço = input ("Coloque o preço: ")
+quantidade = input ("Insira a Quantidade: ")
+Multiplicar = float (preço) * float (quantidade)
+print ("Senhor %s, seus produtos totalizaram R$%.2f " % (nome, Multiplicar))
